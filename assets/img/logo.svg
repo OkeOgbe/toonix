@@ -1,0 +1,19 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="30" cy="30" r="28.5" stroke="url(#paint0_linear)" stroke-width="3"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="4" width="49" height="46">
+<path d="M15.5213 19.3669L11 25.3509M23.2162 20.7943L16.585 29.5708M33.819 20.0319L22.968 34.3935M43.2161 20.8652L29.3509 39.2161M42.365 35.2623L35.7338 44.0388M40.521 47.6558L45.9465 40.475" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="7" y="13" width="48" height="38" fill="url(#paint1_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="30" y1="0" x2="30" y2="60" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4566DA"/>
+<stop offset="1" stop-color="#BC3A80"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="31" y1="13" x2="31" y2="51" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9B51E0"/>
+<stop offset="1" stop-color="#2F80ED"/>
+</linearGradient>
+</defs>
+</svg>

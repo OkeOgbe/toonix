@@ -1,0 +1,232 @@
+.left{
+    float: left !important;
+}
+
+.right{
+    float: right !important;
+}
+
+.l-50{
+    position: relative;
+    left: 50vw;
+}
+
+.is_white{
+    color: #fff !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.flex_only{
+    display: flex !important;
+}
+
+@media screen and (max-width: 770px){
+    .flex_only{
+        display: block !important;
+    }
+}
+
+.has_shadow{
+    box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.19), 4px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background: linear-gradient(180deg, #BB6BD9 0%, #2D9CDB 100%);
+    border-radius: 10px;
+    border: 0 !important;
+    transition: 0.5s ease;
+    color: #ffff !important;
+    z-index: 999;
+}
+
+.btn:hover,
+.price_card:hover{
+    box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.19), 4px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+
+
+
+
+html body{
+    background-color: #2F303A;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    width: 100%;
+    top: 7px;
+}
+
+.logo {
+    width: 40px
+}
+
+.right {
+    position: relative;
+    left: 60%;
+}
+
+.right a {
+    font-weight: bold;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.home_text_holder,
+.about_text_holder{
+    min-height: 80vh;
+}
+.home_text_content{
+    line-height: 3.5em;
+}
+
+.home_text_content p{
+    font-size: 18px;
+}
+
+.fa-android,
+.fa-apple{
+    font-size: 40px;
+    padding-right: 8px;
+}
+
+.btn_holder{
+    justify-content: space-between;
+}
+
+.home_img_holder{
+    width: 490px;
+}
+
+.purple_ball{
+    position: absolute;
+    border-radius: 300px;
+    background: rgba(155, 81, 224, 0.1);
+    width: 500px;
+    height: 500px;
+    left: -40%;
+    overflow: hidden;
+    top: 10%;
+}
+
+.purple_ball_alt{
+    position: absolute;
+    border-radius: 100px;
+    background: rgba(155, 81, 224, 0.1);
+    width: 150px;
+    height: 150px;
+}
+
+.ball_bottom{
+    bottom: 10px;
+    left: 50%;
+}
+
+@media screen and (max-width:770px){
+    .purple_ball{
+        display: none;
+    }    
+}
+
+/*about page*/
+
+.about_text_content{
+    line-height: 2em;
+}
+
+.about_text_holder h2{
+    color: rgba(155, 81, 224, 1);
+}
+
+.about_text_holder p{
+    font-size: 18px;
+}
+
+.about_img_holder{
+    width: 420px;
+    position: relative;
+    top: 4%;
+    left: 30px;
+}
+
+.about_img_holder img{
+    width: 100%;
+}
+
+/*pricing page*/
+.price{
+    min-height: 100vh;
+    margin-top: 40px;
+}
+
+.price_card{
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 60vh;
+    width: 73%;
+    transition: 0.5s ease;
+}
+
+.premium{
+    top: -41px;
+    position: relative;
+    min-height: 70vh !important;
+}
+
+.price_content{
+    text-align: center;
+}
+
+.price_content h3{
+    color: rgba(155, 81, 224, 1);
+    font-weight: bolder;
+}
+
+.sub{
+        width: 65%;
+        margin-top: 5%;
+}
+
+.price_text_bottom{
+    margin-top: 30px;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+}
+
+.price_text_bottom h3{
+    margin-bottom: 20px;
+}
+
+/*disocover page*/
+.disocver_card_holder{
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #4F4F4F !important;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-compact-disk{
+    font-size: 20px;
+}
