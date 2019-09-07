@@ -55,6 +55,9 @@
     box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.19), 4px 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+h3{
+    color: #6c3d77;
+}
 
 
 
@@ -276,10 +279,7 @@ html body{
     min-height: 80vh;
 }
 
-.discover_text_holder h3,
-.celeb_text_holder h3{
-    color: #6c3d77;
-}
+
 
 .card{
     background-color: #4F4F4F !important;
@@ -311,8 +311,46 @@ html body{
         top: -60vh;
     }
 
+    .discover_img_holder img{
+        opacity: 0.6;
+    }
+
     .celeb_text_content{
         text-align: justify !important ;
     }
    
+}
+
+
+/**join page**/
+.join_form_holder{
+    background: rgba(79, 79, 79, 0.35);
+    min-height: 70vh;
+    margin-top: 30px;
+}
+
+
+.join_form_holder  form{
+    padding: 21px 30px;
+}
+
+.join_form_holder input{
+    background: rgba(130, 130, 130, 0.67);
+    border-radius: 14px;
+    border: 0 !important;
+    padding: 16px 10px;
+    margin-top: 40px;
+}
+
+::placeholder{
+    color: #fff !important;
+}
+
+.join_form_content a{
+    position: relative;
+    top: 70px;
+}
+
+.join_text_holder{
+    min-height: 70vh;
 }
