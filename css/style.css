@@ -211,6 +211,11 @@ html body {
     font-size: 18px;
 }
 
+.about_text_holder a{
+    text-align: left;
+    padding-right: 50px;
+}
+
 .about_img_holder {
     width: 420px;
     position: relative;
@@ -229,7 +234,7 @@ html body {
     .about_img_holder {
         top: 0;
         left: 0;
-        min-width: 350px;
+        width: 350px;
     }
 
     .about_text_content a {
@@ -352,18 +357,22 @@ html body {
         text-align: justify !important;
     }
 
+    .discover_text_holder,
+    .celeb_text_holder{
+        min-height: 60vh;
+    }
 }
 
 
 /**join page**/
+
 .join_form_holder {
     background: rgba(79, 79, 79, 0.35);
     min-height: 70vh;
-    margin-top: 30px;
 }
 
 
-.join_form_holder form {
+.join_form_holder   form {
     padding: 21px 30px;
 }
 
@@ -379,14 +388,10 @@ html body {
     color: #fff !important;
 }
 
-.join_form_content a {
-    position: relative;
-    top: 70px;
+.join_form_content button {
+    padding: 10px;
 }
 
-.join_text_holder {
-    min-height: 70vh;
-}
 
 
 @media screen and (min-width: 1920px) {
@@ -431,5 +436,9 @@ html body {
         font-size: 20px;
         margin-top: 20px;
         padding: 12px 40px;
+    }
+
+    .join_form_holder{
+        min-height: 60vh;
     }
 }
